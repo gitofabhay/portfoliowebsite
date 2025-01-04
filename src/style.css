@@ -21,7 +21,7 @@
     padding: 5px;
 }
 
-.daddy:hover {
+.daddy {
     border: 1px solid black;
     border-radius: 50px;
     box-shadow: 1px;
@@ -55,8 +55,6 @@ footer {
     width: 100%;
     margin: 20px;
 }
-
-/* Styling for each article div */
 .article {
     border: 1px solid #ccc;
     padding: 20px;
@@ -70,9 +68,7 @@ footer {
     width: 50%;
     height: 75%;
 }
-
 .expand-btn {
-
     color: white;
     border: none;
     cursor: pointer;
@@ -80,12 +76,9 @@ footer {
     border-radius: 5px;
     margin-bottom: 5px;
 }
-
 .expand-btn:hover {
     background-color: #45a049;
 }
-
-
 .toggle-checkbox {
     display: none;
 }
@@ -93,13 +86,11 @@ nav{
     background-color:darkgray;
     color: darkcyan;
 }
-
 .languages-list {
     display: none;
     margin-top: 10px;
     padding-left: 20px;
 }
-
 .toggle-checkbox:checked + .languages-list {
     display: block;
 }

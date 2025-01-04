@@ -1,0 +1,74 @@
+.header {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bolder;
+}
+.projects{
+   margin-top: -20px; 
+    font-size: 10px;
+}
+.Flex {
+    font-weight: bolder;
+}
+
+.daddy_div {
+    border-top: 1px black solid;
+    display: flex;
+    column-gap: 55px;
+    justify-content: start;
+    margin-top: 5px;
+    padding: 5px;
+}
+
+.daddy {
+    border: 1px solid black;
+    border-radius: 50px;
+    box-shadow: 1px;
+    height: 200px;
+    width: 390px;
+    background-color: black;
+    color: beige;
+    text-decoration: dotted;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.divs {
+    list-style-type: square;
+}
+
+footer {
+    border-top: 1px black solid;
+    margin-top: 5px;
+}
+
+.expand-btn {
+    
+    color: white;
+    
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.expand-btn:hover {
+    background-color: #45a049;
+}
+
+/* Hide the checkbox itself */
+.toggle-checkbox {
+    display: none;
+}
+
+/* Show the languages list only if the checkbox is checked */
+.languages-list {
+    display: none;
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+.toggle-checkbox:checked + .languages-list {
+    display: block;
+}

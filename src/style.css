@@ -21,18 +21,25 @@
     padding: 5px;
 }
 
-.daddy {
+.daddy:hover {
     border: 1px solid black;
     border-radius: 50px;
     box-shadow: 1px;
-    height: 200px;
-    width: 390px;
-    background-color: black;
-    color: beige;
+    background-color:black;
+    color: bisque;  
     text-decoration: dotted;
     font-family: 'Times New Roman', Times, serif;
+    height: 200px;
+    width: 390px;
 }
-
+.daddy:hover{
+    width: 20%;
+    height: 125%;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
 .divs {
     list-style-type: square;
 }
@@ -40,12 +47,33 @@
 footer {
     border-top: 1px black solid;
     margin-top: 5px;
+    margin-left: 14px;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 20px;
+}
+
+/* Styling for each article div */
+.article {
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 30%;
+    height: auto;
+    box-sizing: border-box;
+    
+}
+.article:hover{
+    z-index: 1;
+    width: 50%;
+    height: 75%;
 }
 
 .expand-btn {
-    
+
     color: white;
-    
     border: none;
     cursor: pointer;
     font-size: 16px;
@@ -57,12 +85,15 @@ footer {
     background-color: #45a049;
 }
 
-/* Hide the checkbox itself */
+
 .toggle-checkbox {
     display: none;
 }
+nav{
+    background-color:darkgray;
+    color: darkcyan;
+}
 
-/* Show the languages list only if the checkbox is checked */
 .languages-list {
     display: none;
     margin-top: 10px;

@@ -10,8 +10,12 @@
 }
 .Flex {
     font-weight: bolder;
+    list-style-type: square;
 }
-
+a{
+    text-decoration: none;
+    color: #ccc;
+}
 .daddy_div {
     border-top: 1px black solid;
     display: flex;
@@ -93,4 +97,16 @@ nav{
 }
 .toggle-checkbox:checked + .languages-list {
     display: block;
+}
+.copyright{
+    margin-left: 45%;
+    
+}
+li:hover{
+   z-index: 1;
+   color: aqua;
+   background-color: darkolivegreen;
+}
+ul{
+    list-style: none;
 }

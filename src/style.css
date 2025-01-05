@@ -29,7 +29,7 @@ a{
     border: 1px solid black;
     border-radius: 50px;
     box-shadow: 1px;
-    background-color:black;
+    background-color: rgb(3, 65, 38);
     color: bisque;  
     text-decoration: dotted;
     font-family: 'Times New Roman', Times, serif;
@@ -87,8 +87,9 @@ footer {
     display: none;
 }
 nav{
-    background-color:darkgray;
-    color: darkcyan;
+    background-color: black;
+    color: lightpink;
+    
 }
 .languages-list {
     display: none;
@@ -104,8 +105,8 @@ nav{
 }
 li:hover{
    z-index: 1;
-   color: aqua;
-   background-color: darkolivegreen;
+   color: rgb(236, 190, 133);
+   background-color: rgb(4, 106, 65);
 }
 ul{
     list-style: none;
